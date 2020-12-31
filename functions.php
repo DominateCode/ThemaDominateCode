@@ -1,4 +1,4 @@
-<?php
+<?php defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
 $dominatecode_path_theme = get_template_directory();
 
