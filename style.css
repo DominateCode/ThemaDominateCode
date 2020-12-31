@@ -1,0 +1,124 @@
+/*Theme Name: ThemaDominateCode
+Theme URI: http://dominatecode-co.com/tema-basico-wordpress-bootstrap
+Description: Mi primer tema de wordpress con bootstrap, algo sencillo.
+Author: Andres David Bolaños Paz
+Author URI: http://dominatecode-co.com
+Version: 1.0.1
+*/
+
+.sombra-interior{
+	box-shadow: inset 2px 2px 15px -4px rgba(0,0,0,0.75);
+}
+.sombra-interior-b{
+	box-shadow: inset 0px -27px 50px 0px rgba(0,0,0,0.24);
+}
+.bg-azul-t{
+    background-color: rgba(0, 136,204,0.24);
+}
+.bgazul{
+	background-color: #0088CC;
+    color: #ffffff;
+}
+.colorazul{
+    color:#0088cc;
+}
+
+/* cabecera */
+.product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+}
+.product-device-2{
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+}
+.product-device{
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 250px;
+    height: 410px;
+    background-color: #333;
+    border-radius: 21px;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
+/* Footer */
+.footer .menu-footer{
+    background-color: #303030;
+    color:#fff;
+}
+.footer .copy{
+    background-color:#1a1a1a;
+    color:#fff;
+}
+
+/*menu de navegacion*/
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.nav-link a{
+    color: #ffffffb2;
+    font-weight: bold;
+}
+.nav-link a:hover{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/*menu desplegable*/
+.sub-menu li a{
+    color: black;
+    font-size: 13px;
+}
+.sub-menu li a:hover{
+    color: #0088cc;
+}
+.sub-menu{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 5px;
+}
+.menu-item-has-children a{
+  border: none;
+}
+.menu-item-has-children:hover .sub-menu{
+    display: block;
+}
+
+/* sidebar */
+
+.widget-column{
+    display: block;
+}
+
+.homepost ul li{
+    margin: 50px;
+    padding: 50px;
+    border: 2px solid #0088cc;
+}
+.homepost ul li div img{
+    display: block;
+}
+.card-post-img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
